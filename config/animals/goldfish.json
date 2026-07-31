@@ -1,0 +1,37 @@
+{
+    "id": "goldfish",
+    "name": "金鱼",
+    "scientific_name": "Carassius auratus",
+    "color_vision": {
+        "type": "tetrachromatic",
+        "sensitive_spectrum": ["ultraviolet", "blue", "green", "red"],
+        "description": "四色视（含紫外），紫外感知用于同类识别和觅食。模拟为近似效果。"
+    },
+    "visual_acuity": {
+        "equivalent_snellen": "20/200~20/400",
+        "description": "极低分辨率，但能清晰识别10cm内物体。"
+    },
+    "acuity_params": {
+        "foveal_radius_deg": 0,
+        "max_blur_sigma_ratio": 0.08,
+        "falloff_exponent": 1.0
+    },
+    "field_of_view": {
+        "total_degrees": 360,
+        "binocular_overlap_degrees": 5,
+        "blind_spot_positions": [],
+        "description": "水下近乎环形视野，几乎没有立体视觉。"
+    },
+    "temporal_perception": {
+        "flicker_fusion_hz": 100,
+        "description": "较高，对运动非常敏感。"
+    },
+    "luminance_sensitivity": {
+        "scotopic_enhancement_factor": 4,
+        "has_tapetum_lucidum": true,
+        "description": "有反光膜，适应浑浊水体。"
+    },
+    "special_perceptions": ["紫外感知（软件未模拟）"],
+    "ecological_summary": "淡水视觉，四色视帮助在复杂水环境中觅食和社交。",
+    "layman_description": "<b>色彩</b>：我能看到比人类更广的光谱，包括紫外光。我的世界色彩很丰富，但和你看到的色调不太一样。<br><br><b>清晰度</b>：我的视力非常差，世界对我来说是一片模糊的色块。但我能看清大约10厘米内的东西。<br><br><b>视野</b>：在水下，我几乎能看到360度环绕的世界，几乎没有视觉死角。不过，我看不出距离和立体感。<br><br><b>夜视</b>：我有反光膜，在浑浊或昏暗的水里也能看见东西。<br><br><b>时间感知</b>：我对运动的感知很快，任何快速移动的物体都能立刻引起我的注意。<br><br><b>我的生存之道</b>：我是水中永恒的警觉者。我的眼睛牺牲了清晰度和立体感，换来了全方位的视野和对运动的高度敏感——在浑浊的水世界里，活下去靠的是反应速度。"
+}

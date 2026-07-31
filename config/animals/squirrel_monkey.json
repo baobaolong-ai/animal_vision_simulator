@@ -1,0 +1,37 @@
+{
+    "id": "squirrel_monkey",
+    "name": "松鼠猴",
+    "scientific_name": "Saimiri sciureus",
+    "color_vision": {
+        "type": "dichromatic",
+        "sensitive_spectrum": ["blue", "yellow"],
+        "description": "二色视（缺失M锥），功能上类似人类绿色盲，但光谱混淆曲线存在物种差异。"
+    },
+    "visual_acuity": {
+        "equivalent_snellen": "20/25",
+        "description": "中等偏上锐度，适应林间跳跃。"
+    },
+    "acuity_params": {
+        "foveal_radius_deg": 3,
+        "max_blur_sigma_ratio": 0.015,
+        "falloff_exponent": 1.8
+    },
+    "field_of_view": {
+        "total_degrees": 150,
+        "binocular_overlap_degrees": 90,
+        "blind_spot_positions": [],
+        "description": "约150°，双眼前置，立体视觉良好。"
+    },
+    "temporal_perception": {
+        "flicker_fusion_hz": 60,
+        "description": "约60Hz，与人类相当。"
+    },
+    "luminance_sensitivity": {
+        "scotopic_enhancement_factor": 1,
+        "has_tapetum_lucidum": false,
+        "description": "昼行性，依赖视锥细胞，夜视弱。"
+    },
+    "special_perceptions": [],
+    "ecological_summary": "昼行灵长类，二色视可能有助于打破伪装发现昆虫。",
+    "layman_description": "<b>色彩</b>：我分不太清红色和绿色，世界对我来说主要由蓝和黄构成。不过我的雌性同伴里有些能像人类一样看到全彩的世界。<br><br><b>清晰度</b>：我的视力在二色视动物中算是不错的，只比人类稍差一点，能看清树林间跳跃的落点。<br><br><b>视野</b>：我的双眼都朝向前方，立体感很好，适合在树林间穿梭和捕捉昆虫。<br><br><b>夜视</b>：我是白天活动的动物，晚上视力就大打折扣了。<br><br><b>时间感知</b>：我对运动的感知和人类差不多，能看清正常速度的移动。<br><br><b>我的生存之道</b>：我是丛林里的灵巧攀爬者。我的二色视可能帮我更容易看穿树叶的伪装，发现藏在其中的昆虫——这是我的小小超能力。"
+}

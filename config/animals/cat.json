@@ -1,0 +1,37 @@
+{
+    "id": "cat",
+    "name": "猫",
+    "scientific_name": "Felis catus",
+    "color_vision": {
+        "type": "dichromatic",
+        "sensitive_spectrum": ["blue", "green"],
+        "description": "二色视（蓝-绿），类似人类红色盲的色觉体验，红色物体极暗。"
+    },
+    "visual_acuity": {
+        "equivalent_snellen": "20/150",
+        "description": "静态分辨率较低，晶状体调节力弱，近距离无法对焦。"
+    },
+    "acuity_params": {
+        "foveal_radius_deg": 10,
+        "max_blur_sigma_ratio": 0.05,
+        "falloff_exponent": 3.0
+    },
+    "field_of_view": {
+        "total_degrees": 200,
+        "binocular_overlap_degrees": 110,
+        "blind_spot_positions": ["正下方近距离"],
+        "description": "约200°，双眼重叠极大，立体视觉极佳。"
+    },
+    "temporal_perception": {
+        "flicker_fusion_hz": 55,
+        "description": "约55Hz，对高速微小运动极敏感。"
+    },
+    "luminance_sensitivity": {
+        "scotopic_enhancement_factor": 7,
+        "has_tapetum_lucidum": true,
+        "description": "微光视觉极强，反光膜发达，所需光线仅为人1/6。"
+    },
+    "special_perceptions": [],
+    "ecological_summary": "晨昏伏击猎手，牺牲色彩细节换取顶级夜视和精准测距能力。垂直狭缝瞳孔增强垂直轮廓。",
+    "layman_description": "<b>色彩</b>：我的世界偏蓝绿色调。红色在我眼里几乎就是暗灰色，所以我分不太清红色和绿色的东西。<br><br><b>清晰度</b>：我看静止的东西有点模糊，尤其是离我很近的物体。但你一动，我就能立刻锁定你。<br><br><b>视野</b>：我的视线比人更集中在前方，这让我能精准判断距离，每一下跳跃都有把握。<br><br><b>夜视</b>：在几乎全黑的地方，我依然能看清猎物。我的眼睛需要的光线只相当于人类的六分之一。夜里看我眼睛发光，那是我眼底的“反光板”在工作。<br><br><b>时间感知</b>：我能捕捉到非常快速和微小的动作。一只老鼠刚想跑，我就已经看到它了。<br><br><b>我的生存之道</b>：我是一个晨昏伏击的猎手。我的眼睛牺牲了色彩和部分清晰度，换来了极致的夜视、精准的测距和对运动极其敏锐的感知——一切都是为了瞬间出击。"
+}

@@ -1,0 +1,37 @@
+{
+    "id": "red_kangaroo",
+    "name": "红袋鼠",
+    "scientific_name": "Macropus rufus",
+    "color_vision": {
+        "type": "dichromatic",
+        "sensitive_spectrum": ["green", "red"],
+        "description": "S锥功能退化，蓝-黄辨识能力显著弱于人类，蓝色物体偏灰绿。"
+    },
+    "visual_acuity": {
+        "equivalent_snellen": "20/50",
+        "description": "远距离探测能力良好。"
+    },
+    "acuity_params": {
+        "foveal_radius_deg": 10,
+        "max_blur_sigma_ratio": 0.03,
+        "falloff_exponent": 2.5
+    },
+    "field_of_view": {
+        "total_degrees": 280,
+        "binocular_overlap_degrees": 40,
+        "blind_spot_positions": [],
+        "description": "双眼侧置，视野较宽，有利于监视。"
+    },
+    "temporal_perception": {
+        "flicker_fusion_hz": 80,
+        "description": "对远处移动物体敏感。"
+    },
+    "luminance_sensitivity": {
+        "scotopic_enhancement_factor": 4,
+        "has_tapetum_lucidum": true,
+        "description": "有反光膜，晨昏活动。"
+    },
+    "special_perceptions": [],
+    "ecological_summary": "干旱平原居住者，色觉适应可能与植被/土壤分辨有关。",
+    "layman_description": "<b>色彩</b>：我对蓝色不太敏感，蓝色物体在我眼里偏灰绿。世界对我来说主要是黄色和绿色调。<br><br><b>清晰度</b>：我的视力比狗稍好一些，能看到远处的动静，适合在开阔平原上发现远方来的威胁。<br><br><b>视野</b>：我的眼睛长在两侧，视野很宽，能监视大片的范围。<br><br><b>夜视</b>：我喜欢在晨昏活动，眼底有反光膜，暗光下的视力不错。<br><br><b>时间感知</b>：我对远处移动的物体非常敏感，任何风吹草动都逃不过我的眼睛。<br><br><b>我的生存之道</b>：我是干旱平原上的守望者。我的视觉系统是为开阔空间而优化的——善于发现远处的移动，适合在广袤的土地上跳跃求生。"
+}

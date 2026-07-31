@@ -1,0 +1,17 @@
+# 核心数值与科学计算
+numpy==1.26.4
+scipy==1.11.4
+
+# 色彩科学 (色盲模拟矩阵)
+colour-science==0.4.6
+
+# 图像处理 (无 GUI 版本)
+opencv-python-headless==4.10.0.84
+Pillow==10.4.0
+
+# ---------- 可选依赖 ----------
+用于 Gradio 本地演示界面
+gradio==4.41.0
+
+用于生成测试图和 LUT (若需重新生成)
+matplotlib==3.9.2

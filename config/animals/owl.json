@@ -1,0 +1,37 @@
+{
+    "id": "owl",
+    "name": "猫头鹰",
+    "scientific_name": "Tyto alba",
+    "color_vision": {
+        "type": "monochromat",
+        "sensitive_spectrum": [],
+        "description": "色觉极弱，主要依赖亮度对比。夜行种接近单色视，保留基础蓝-绿区分能力。"
+    },
+    "visual_acuity": {
+        "equivalent_snellen": "20/100",
+        "description": "静态分辨率一般，暗光下对比灵敏度高。"
+    },
+    "acuity_params": {
+        "foveal_radius_deg": 10,
+        "max_blur_sigma_ratio": 0.03,
+        "falloff_exponent": 2.5
+    },
+    "field_of_view": {
+        "total_degrees": 110,
+        "binocular_overlap_degrees": 70,
+        "blind_spot_positions": [],
+        "description": "约110°，双眼前置，头部可旋转270°补偿视野。"
+    },
+    "temporal_perception": {
+        "flicker_fusion_hz": 70,
+        "description": "约70Hz，能捕捉黑夜中细微运动。"
+    },
+    "luminance_sensitivity": {
+        "scotopic_enhancement_factor": 10,
+        "has_tapetum_lucidum": false,
+        "description": "夜视极致，瞳孔极大，视杆细胞密度极高。"
+    },
+    "special_perceptions": ["听觉定位主导空间感知"],
+    "ecological_summary": "夜间伏击者，视觉在暗光下优化，深度感知依赖听觉。",
+    "layman_description": "<b>色彩</b>：我几乎是色盲，世界在我眼中是一幅高对比度的黑白影像。颜色对我来说不重要，明暗才是关键。<br><br><b>清晰度</b>：我的静态视力不算好，但在黑暗中，任何微弱的对比度变化都逃不过我的眼睛。<br><br><b>视野</b>：我的双眼都朝向前方，视野很窄，但立体感极强。我能把头转270度来弥补视野的不足。<br><br><b>夜视</b>：我是暗夜之王。我的瞳孔极大，感光细胞密度极高，能在几乎全黑的环境中看清猎物的细微动静。<br><br><b>时间感知</b>：我能捕捉黑夜中极其微小的运动，任何一点动静都意味着晚餐。<br><br><b>我的生存之道</b>：我是无声的暗夜杀手。我的眼睛和耳朵协同工作——眼睛负责锁定，耳朵负责定位，共同完成黑暗中致命的精准一击。"
+}

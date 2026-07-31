@@ -1,0 +1,48 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.so
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# IDE 和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统生成文件
+.DS_Store
+Thumbs.db
+
+# 打包和构建输出
+dist/
+build/
+*.spec
+
+# 环境变量和密钥
+.env
+*.key
+*.pem
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# 日志文件
+*.log
+
+# 临时图片或测试输出
+output.jpg
+test_result.png
+*.tmp
+
+# 本仓库不包含 LUT 文件，请用户运行 tools/generate_luts.py 自行生成
+config/luts/*.npy
+
+# 排除完整版 GUI 和桌面入口
+ui/
+main.py

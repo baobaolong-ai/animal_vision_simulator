@@ -1,0 +1,37 @@
+{
+    "id": "dog",
+    "name": "狗",
+    "scientific_name": "Canis familiaris",
+    "color_vision": {
+        "type": "dichromatic",
+        "sensitive_spectrum": ["blue", "yellow"],
+        "description": "二色视（蓝-黄），类似人类红色盲的色觉体验，无法区分红绿。"
+    },
+    "visual_acuity": {
+        "equivalent_snellen": "20/60~20/90",
+        "description": "品种差异大，平均水平约20/75。视网膜存在水平高密度视锥区。"
+    },
+    "acuity_params": {
+        "foveal_radius_deg": 15,
+        "max_blur_sigma_ratio": 0.03,
+        "falloff_exponent": 2.5
+    },
+    "field_of_view": {
+        "total_degrees": 250,
+        "binocular_overlap_degrees": 45,
+        "blind_spot_positions": [],
+        "description": "约250°，立体视觉较弱，依赖运动视差。"
+    },
+    "temporal_perception": {
+        "flicker_fusion_hz": 80,
+        "description": "约80Hz，对快速运动敏感。"
+    },
+    "luminance_sensitivity": {
+        "scotopic_enhancement_factor": 5,
+        "has_tapetum_lucidum": true,
+        "description": "夜视能力强，脉络膜反光膜发达，灵敏度为人5倍。"
+    },
+    "special_perceptions": [],
+    "ecological_summary": "晨昏性群居猎手，宽视野与强夜视相结合，运动探测优先于细节分辨。",
+    "layman_description": "<b>色彩</b>：我的世界由蓝色和黄色组成。红色和绿色对我来说都是灰黄褐色，只能靠明暗来区分。<br><br><b>清晰度</b>：我看东西没你那么清晰。你站在20米外能看清的，我大概要走到6米处才行。但我对移动的物体特别敏感。<br><br><b>视野</b>：我的视野比人更宽，能看到侧面和身后更多的区域。不过，我判断距离的能力不如你。<br><br><b>夜视</b>：在暗光下，我的视力是人类的5倍。我眼底有一层“反光镜”，所以夜里照我的眼睛会发光。<br><br><b>时间感知</b>：我眼中的世界比你的更流畅。你看电视觉得连贯，我看到的却是一帧一帧在跳。<br><br><b>我的生存之道</b>：我的祖先是晨昏狩猎者。所以我的眼睛牺牲了色彩和细节，换来了宽视野、运动感知和夜视能力——为追逐和奔跑而生。"
+}

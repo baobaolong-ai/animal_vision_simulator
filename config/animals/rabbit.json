@@ -1,0 +1,37 @@
+{
+    "id": "rabbit",
+    "name": "兔子",
+    "scientific_name": "Oryctolagus cuniculus",
+    "color_vision": {
+        "type": "dichromatic",
+        "sensitive_spectrum": ["blue", "green"],
+        "description": "二色视（蓝-绿敏感），红绿色调无法区分，但能区分蓝-绿。"
+    },
+    "visual_acuity": {
+        "equivalent_snellen": "20/80~20/100",
+        "description": "视力较差，但视网膜存在低密度中央区。"
+    },
+    "acuity_params": {
+        "foveal_radius_deg": 5,
+        "max_blur_sigma_ratio": 0.035,
+        "falloff_exponent": 2.0
+    },
+    "field_of_view": {
+        "total_degrees": 360,
+        "binocular_overlap_degrees": 10,
+        "blind_spot_positions": ["鼻下极小区域"],
+        "description": "接近360°环形视野，双眼重叠极小，立体视觉极弱。"
+    },
+    "temporal_perception": {
+        "flicker_fusion_hz": 60,
+        "description": "约60Hz，对运动变化异常敏感。"
+    },
+    "luminance_sensitivity": {
+        "scotopic_enhancement_factor": 5,
+        "has_tapetum_lucidum": true,
+        "description": "晨昏活动，有反光膜，夜视较好。"
+    },
+    "special_perceptions": [],
+    "ecological_summary": "典型被捕食者，全景视野与快速运动探测优先于细节分辨。",
+    "layman_description": "<b>色彩</b>：我的世界由蓝色和绿色构成，红色和绿色在我眼里是差不多的黄灰色调。<br><br><b>清晰度</b>：我看东西比较模糊，细节不是我的强项。但只要有什么东西动了一下，我立刻就能发现。<br><br><b>视野</b>：我的眼睛长在头的两侧，几乎能看到整个环形的世界。代价是我很难判断距离，也没有立体感。<br><br><b>夜视</b>：我喜欢在晨昏活动，眼底有反光膜，暗光下视力不错。<br><br><b>时间感知</b>：我对运动变化非常敏感，任何风吹草动都逃不过我的眼睛。<br><br><b>我的生存之道</b>：我是食物链最底端的被捕食者。我的眼睛是全方位预警雷达——宁可模糊，不可漏掉任何危险信号。"
+}

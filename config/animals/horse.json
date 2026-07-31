@@ -1,0 +1,37 @@
+{
+    "id": "horse",
+    "name": "马",
+    "scientific_name": "Equus ferus caballus",
+    "color_vision": {
+        "type": "dichromatic",
+        "sensitive_spectrum": ["blue", "green"],
+        "description": "二色视（蓝-绿），类似人类红色盲的色觉体验，红色变暗，绿草地呈暗黄。"
+    },
+    "visual_acuity": {
+        "equivalent_snellen": "20/60",
+        "description": "中央区较清晰，外周快速模糊。"
+    },
+    "acuity_params": {
+        "foveal_radius_deg": 5,
+        "max_blur_sigma_ratio": 0.025,
+        "falloff_exponent": 2.0
+    },
+    "field_of_view": {
+        "total_degrees": 330,
+        "binocular_overlap_degrees": 30,
+        "blind_spot_positions": ["正前方1-2米", "正后方"],
+        "description": "约330°全景视野，双眼重叠区小，立体视觉弱。正前方和正后方存在盲区。"
+    },
+    "temporal_perception": {
+        "flicker_fusion_hz": 75,
+        "description": "约75Hz，对侧面突然出现的运动极度敏感。"
+    },
+    "luminance_sensitivity": {
+        "scotopic_enhancement_factor": 4,
+        "has_tapetum_lucidum": true,
+        "description": "夜视较强，有反光膜。"
+    },
+    "special_perceptions": [],
+    "ecological_summary": "平原被捕食者，全景视野与运动探测优先，水平矩形瞳孔增强地面监视。",
+    "layman_description": "<b>色彩</b>：我的世界也是蓝绿色调。红色对我来说很暗，绿草地在我眼里是一片暗黄色。<br><br><b>清晰度</b>：我正前方的一小块区域看得比较清楚，其他地方就慢慢模糊了。但我对侧面突然出现的动静极度敏感。<br><br><b>视野</b>：我几乎能看遍全身周围一圈，只有正前方脚下和正背后是看不见的盲区。这让我很难被偷袭，但也很难判断距离。<br><br><b>夜视</b>：我在黄昏和黎明时视力不错，眼底也有反光膜，夜间活动没有问题。<br><br><b>时间感知</b>：我能分辨比人类更快的运动。你在我身后突然挥手，我可能早就察觉了。<br><br><b>我的生存之道</b>：我是平原上的逃跑专家。我的眼睛牺牲了立体感和近距离细节，换来了近乎全景的视野和对运动极高的敏感度——一切都是为了提前发现危险，迅速逃离。"
+}

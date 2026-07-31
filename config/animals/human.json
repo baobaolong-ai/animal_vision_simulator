@@ -1,0 +1,37 @@
+{
+    "id": "human",
+    "name": "人",
+    "scientific_name": "Homo sapiens",
+    "color_vision": {
+        "type": "trichromatic",
+        "sensitive_spectrum": ["red", "green", "blue"],
+        "description": "正常三色视，能分辨约100万种颜色。"
+    },
+    "visual_acuity": {
+        "equivalent_snellen": "20/20",
+        "description": "标准视力，中央凹视锥细胞高度密集。"
+    },
+    "acuity_params": {
+        "foveal_radius_deg": 2,
+        "max_blur_sigma_ratio": 0.00,
+        "falloff_exponent": 1.0
+    },
+    "field_of_view": {
+        "total_degrees": 180,
+        "binocular_overlap_degrees": 120,
+        "blind_spot_positions": [],
+        "description": "约180°，立体视觉强，深度感知精准。"
+    },
+    "temporal_perception": {
+        "flicker_fusion_hz": 60,
+        "description": "约60Hz，个体差异较大。"
+    },
+    "luminance_sensitivity": {
+        "scotopic_enhancement_factor": 1,
+        "has_tapetum_lucidum": false,
+        "description": "夜视能力一般，暗适应约需30分钟。"
+    },
+    "special_perceptions": [],
+    "ecological_summary": "昼行性社会性灵长类，视觉为绝对主导感官，具备精细色彩和立体感知能力。",
+    "layman_description": "<b>色彩</b>：我拥有三色视觉，能看到红、绿、蓝组成的丰富色彩世界，是这次对比的基准。<br><br><b>清晰度</b>：我的视力标准是20/20，中央凹能看清极精细的细节，适合阅读和识别面孔。<br><br><b>视野</b>：我的视野约180°，双眼重叠区很大，能精准判断远近和深度。<br><br><b>夜视</b>：我在黑暗中视力一般，需要大约半小时才能完全适应暗光环境。<br><br><b>时间感知</b>：我能分辨每秒约60次闪烁，看24帧的电影就觉得画面是连贯的。<br><br><b>我的生存之道</b>：我的眼睛是为精细操作和社会交流而生的，色彩和细节是我的强项，夜视和视野则交给了其他动物去称王。"
+}

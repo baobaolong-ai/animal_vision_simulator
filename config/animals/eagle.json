@@ -1,0 +1,37 @@
+{
+    "id": "eagle",
+    "name": "鹰",
+    "scientific_name": "Aquila chrysaetos",
+    "color_vision": {
+        "type": "tetrachromatic",
+        "sensitive_spectrum": ["red", "green", "blue", "ultraviolet"],
+        "description": "四色视（含紫外），紫外感知用于追踪猎物尿液痕迹。模拟中紫外为艺术化示意。"
+    },
+    "visual_acuity": {
+        "equivalent_snellen": "20/5",
+        "description": "极高锐度，约为人4-8倍，双中央凹结构。"
+    },
+    "acuity_params": {
+        "foveal_radius_deg": 2,
+        "max_blur_sigma_ratio": 0.0,
+        "falloff_exponent": 1.0
+    },
+    "field_of_view": {
+        "total_degrees": 240,
+        "binocular_overlap_degrees": 50,
+        "blind_spot_positions": [],
+        "description": "约240°，立体视觉良好，头部转动灵活。"
+    },
+    "temporal_perception": {
+        "flicker_fusion_hz": 100,
+        "description": ">100Hz，高速俯冲时世界如慢动作。"
+    },
+    "luminance_sensitivity": {
+        "scotopic_enhancement_factor": 2,
+        "has_tapetum_lucidum": false,
+        "description": "昼行猎手，眉骨结构防上方眩光。"
+    },
+    "special_perceptions": ["紫外感知（软件未模拟）"],
+    "ecological_summary": "高空昼行猎手，将远距离分辨率和紫外感知推向极致。",
+    "layman_description": "<b>色彩</b>：我能看到比人类更丰富的色彩，还能看到紫外光。鼠类的尿迹在我眼里就像发光的地图，指引我找到猎物。<br><br><b>清晰度</b>：我的视力是人类的4到8倍。你在百米外看不清的东西，我在千米高空就能锁定。<br><br><b>视野</b>：我的视野比人宽，立体视觉也很好，头部还能灵活转动，几乎没有死角。<br><br><b>夜视</b>：我是纯粹的日行猎手，太阳下山后我的视力就大打折扣。但我突出的眉骨能遮挡上方眩光，让我在烈日下依然看得清楚。<br><br><b>时间感知</b>：我眼中的世界像慢动作。你眼里快速飞过的鸟，在我眼里每一个振翅的细节都清晰可见。<br><br><b>我的生存之道</b>：我是天空的霸主。我的眼睛进化成了最强大的远距离高清摄像头——为了从云端锁定地面的猎物。"
+}
