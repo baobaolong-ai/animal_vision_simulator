@@ -1,7 +1,7 @@
 """
 core/luminance_adaptation.py
-明暗适应模拟：使用限制对比度自适应直方图均衡（CLAHE）在亮度通道上提亮暗部，
-并通过视觉侧抑制模拟（基于距离变换的渐进掩膜）保护高光区域纹理。
+暗适应增益模拟：使用限制对比度自适应直方图均衡（CLAHE）在亮度通道上提亮暗部，
+并通过视觉高光抑制模拟（基于距离变换的渐进掩膜）保护高光区域纹理。
 反光膜光晕仅微弱叠加。
 """
 import cv2
@@ -11,7 +11,7 @@ import math
 
 def _create_distance_based_glow_mask(binary_mask, max_decay_distance=30):
     """
-    基于距离变换生成外部渐变掩膜，用于模拟视觉侧抑制的光晕扩散效果。
+    基于距离变换生成外部渐变掩膜，用于模拟视觉高光抑制的光晕扩散效果。
     
     该掩膜具有以下特性：
     - 高光区域内部（原掩膜为1的区域）保持为 1，纹理完全保留。
@@ -51,7 +51,7 @@ def apply_luminance_adaptation(image: np.ndarray, profile) -> np.ndarray:
     if factor <= 1.0 and not has_tapetum:
         return image
 
-    # ---------- 暗部增强 + 视觉侧抑制模拟 ----------
+    # ---------- 暗部增强 + 视觉高光抑制模拟 ----------
     if factor > 1.0:
         # 转换到 LAB 空间，仅处理 L 通道（避免影响色相与饱和度）
         lab = cv2.cvtColor(image, cv2.COLOR_RGB2LAB)

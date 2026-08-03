@@ -1,6 +1,6 @@
 """
 core/pipeline.py
-动物视觉模拟管线：色彩映射 → 色彩后处理 → 明暗适应 → 视锐度模拟。
+动物视觉模拟管线：色彩映射 → 色彩后处理 → 暗适应增益 → 高光抑制 → 反光膜模拟 → 视锐度模拟。
 支持神经适应系数。
 """
 import copy
@@ -29,7 +29,7 @@ def process_image_with_lut(image: np.ndarray,
     # 1. 色彩后处理（恢复部分视觉对比度）
     processed = apply_color_postprocess(processed, saturation_boost)
 
-    # 2. 明暗适应（CLAHE 强度由 luminance_adaptation 控制）
+    # 2. 暗适应增益（CLAHE 强度由 luminance_adaptation 控制）
     base_factor = profile.luminance_sensitivity.scotopic_enhancement_factor
     has_tapetum = profile.luminance_sensitivity.has_tapetum_lucidum
 

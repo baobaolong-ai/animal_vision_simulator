@@ -71,7 +71,7 @@ def main():
                 lut = generate_3dlut(args.animal)
         processed = apply_3dlut(image, lut)
 
-    # 2. 完整处理管线 (明暗适应、视锐度、特殊感知)
+    # 2. 完整处理管线 (暗适应增益、高光抑制、视锐度)
     print("执行视觉模拟管线 ...")
     processed = process_image_with_lut(
         processed,
